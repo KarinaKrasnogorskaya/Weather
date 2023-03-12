@@ -23,6 +23,7 @@
 		9A550E4929BA6B5500F5CA00 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A550E4829BA6B5500F5CA00 /* Shapes.swift */; };
 		9AD22C6829BE134900AA6442 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD22C6729BE134900AA6442 /* NavigationBar.swift */; };
 		9AD22C6A29BE1C6500AA6442 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD22C6929BE1C6500AA6442 /* WeatherView.swift */; };
+		9AD22C6C29BE1FBE00AA6442 /* WeatherWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD22C6B29BE1FBE00AA6442 /* WeatherWidget.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		9A550E4829BA6B5500F5CA00 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
 		9AD22C6729BE134900AA6442 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 		9AD22C6929BE1C6500AA6442 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		9AD22C6B29BE1FBE00AA6442 /* WeatherWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherWidget.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 				9A46357629BB6B1400DADD53 /* Blur.swift */,
 				9A46357829BC9A9900DADD53 /* SegmentedControl.swift */,
 				9A46357C29BCC02E00DADD53 /* ForecastCard.swift */,
+				9AD22C6B29BE1FBE00AA6442 /* WeatherWidget.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AD22C6C29BE1FBE00AA6442 /* WeatherWidget.swift in Sources */,
 				9A46357D29BCC02E00DADD53 /* ForecastCard.swift in Sources */,
 				9A550E3029BA351600F5CA00 /* ContentView.swift in Sources */,
 				9A46357929BC9A9900DADD53 /* SegmentedControl.swift in Sources */,
